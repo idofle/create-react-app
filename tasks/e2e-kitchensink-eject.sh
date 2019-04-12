@@ -167,7 +167,7 @@ E2E_URL="http://localhost:3002" \
   node_modules/.bin/jest --no-cache --runInBand --config='jest.integration.config.js'
 
 # Test "production" environment
-E2E_FILE=./build/index.html \
+E2E_FILE=./build/index.php \
   CI=true \
   NODE_ENV=production \
   BABEL_ENV=test \
